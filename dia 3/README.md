@@ -1,6 +1,6 @@
 # Clone da página inicial do Spotify
 
-![preview](./.Github/TelaInicial.png)
+![preview](./.Github/Telainicial.png)
 
 [🔗 Clique aqui para acessar](kbrlps)
 
