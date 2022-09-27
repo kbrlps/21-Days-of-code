@@ -2,7 +2,7 @@
 
 ![preview](./.Github/TelaInicial.png)
 
-[🔗 Clique aqui para acessar]()
+[🔗 Clique aqui para acessar](kbrlps)
 
 ## 🛠 Tecnologias 
 
