@@ -27,7 +27,7 @@
 - HTML
 - CSS
 - Git e Github
-- JavScript
+- JavaScript
 
 ## ✉ Contato
 
