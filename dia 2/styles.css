@@ -1,18 +1,20 @@
 body * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
-    background: black;
+    background-image: linear-gradient(45deg,white, blue);
     color: white;
     align-items: center;
     justify-content: center;   
     min-height: 90vh;
     display: flex;
     flex-direction: column;
+
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    font-family: 'Arial', sans-serif;
 }
