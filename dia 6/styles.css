@@ -72,7 +72,7 @@ span {
     color: #fff;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 300px) {
     .btn-container {
         flex-direction: column;
         align-items: center;
