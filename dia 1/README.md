@@ -5,8 +5,8 @@
 - dia 03  Crie um botão animado
 - dia 04  Crie uma calculadora
 - dia 05  Desenvolva uma pagina customizada que exiba o erro 404
-- dia 06  Crie um card com efeito glassmorphism
-- dia 07  Desenvolva um contador
+- dia 06  Desenvolva um contador
+- dia 07  Crie um card com efeito glassmorphism
 - dia 08  Desenvolva um toggle que altere o tema entre Dark/Light
 - dia 09  Crie uma animação de loading
 - dia 10  Utilize a lib ****particles.js**** do Javascript

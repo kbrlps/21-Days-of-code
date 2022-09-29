@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255,255,255,0.3);
+    box-shadow: 0px 0px 20px 0px;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 35rem;
+}
+
+h1 {
+    color: #1e1e1e;
+    font-weight: 700;
+}
+
+span {
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+.btn-container {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    width: 33%;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #1e1e1e;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+@media only screen and (max-width: 350px) {
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        width: 100%;
+        padding-bottom: 0.1rem;
+    }
+}
