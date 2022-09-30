@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 35px;
+    background-color: transparent; 
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: backdrop-filter 0.5s;
+}
+
+.text {
+    color: #ffff;
+    position: relative;
+    top: 200px;
+    transition: top 1s;
+}
+
+.container:hover .text {
+    top: 0;
+}
+
+.container:hover {
+    backdrop-filter: blur(10px);
+}
