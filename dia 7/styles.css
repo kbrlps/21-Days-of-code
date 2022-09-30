@@ -23,7 +23,7 @@ body {
     padding: 35px;
     background-color: transparent; 
     border: 2px solid white;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(px);
     border-radius: 30px;
     overflow: hidden;
     transition: backdrop-filter 0.5s;
